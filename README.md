@@ -26,7 +26,6 @@ A URL Inspection Framework for Early Threat Identification
 # Installation
 ## Clone the repository
     git clone https://github.com/MANOJS-12/aegisz.git
-    cd aegisz
 ## Install Dependencies
     pip install aiohttp validators pyyaml python-whois beautifulsoup4 rich
 ## API Key Configuration
