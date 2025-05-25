@@ -25,10 +25,10 @@ A URL Inspection Framework for Early Threat Identification
     - rich
 # API Key Configuration
 Obtain a Google Safe Browsing API key from the Google Cloud Console and replace your_api_key_here with your key.
-## Installation
-# Clone the repository
+# Installation
+## Clone the repository
     git clone https://github.com/MANOJS-12/aegisz.git
     cd aegisz
-# Install Dependencies
+## Install Dependencies
     pip install aiohttp validators pyyaml python-whois beautifulsoup4 rich
 
