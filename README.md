@@ -24,4 +24,4 @@ A URL Inspection Framework for Early Threat Identification
     - beautifulsoup4
     - rich
 # API Key Configuration
-To enable functionality for Google Safe Browsing checks, replace the placeholder your_api_key_here in the phishing_detection.py script with a valid API key obtained from the Google Safe Browsing API service.
+Obtain a Google Safe Browsing API key from the Google Cloud Console and replace your_api_key_here with your key.
