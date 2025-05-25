@@ -14,7 +14,7 @@ A URL Inspection Framework for Early Threat Identification
 4. Rich CLI Interface: Powered by the rich library for colorful, formatted output.
 5. Robust Error Handling: Gracefully handles network errors, timeouts, and invalid inputs.
 6. Logging: Detailed logging for debugging and tracking issues.
-#Requirements
+# Requirements
 1. Python 3.8 or higher
 2. Required Python packages:
     - aiohttp
