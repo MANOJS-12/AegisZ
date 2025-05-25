@@ -23,12 +23,29 @@ A URL Inspection Framework for Early Threat Identification
     - python-whois
     - beautifulsoup4
     - rich
-# API Key Configuration
-Obtain a Google Safe Browsing API key from the Google Cloud Console and replace your_api_key_here with your key.
 # Installation
 ## Clone the repository
     git clone https://github.com/MANOJS-12/aegisz.git
     cd aegisz
 ## Install Dependencies
     pip install aiohttp validators pyyaml python-whois beautifulsoup4 rich
+## API Key Configuration
+    google_safe_browsing_api_key: "your_api_key_here"
+Obtain a Google Safe Browsing API key from the Google Cloud Console and replace your_api_key_here with your key.
+## Run the Script
+    python aegisz.py
+# Usage
+## Launch the script
+    python aegisz.py
+1. Choose an option from the menu
+        - Check a URL: Enter a URL to analyze for phishing risks.
+        - Exit: Close the program.
+2. View the results
+        - The tool performs multiple checks and displays results in a table.
+        - A risk score is calculated, categorizing the URL as:
+            High Risk (Score ≥ 7): Likely a phishing site.
+            Warning (Score ≥ 4): Suspicious site.
+            Caution (Score ≥ 2): Some risk factors detected.
+            Safe (Score < 2): No major issues detected.
+
 
