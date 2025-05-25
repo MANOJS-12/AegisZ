@@ -34,6 +34,3 @@ A URL Inspection Framework for Early Threat Identification
 Obtain a Google Safe Browsing API key from the Google Cloud Console and replace your_api_key_here with your key.
 ## Run the Script
     python aegisz.py
-
-
-
